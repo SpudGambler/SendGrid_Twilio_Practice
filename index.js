@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
   return;
 });
 
-//
+//Funcion de obtener mensaje
 function getMessage() {
   const body = 'Mensaje enviado el 06/04/2022 07:00:00 a.m';
   return {
@@ -79,6 +79,7 @@ function getMessage() {
   };
 }
 
+//Función de Enviar Correo
 async function sendEmail() {
   try {
     await sgMail.send(getMessage());
