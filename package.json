@@ -1,0 +1,26 @@
+{
+  "name": "sendgrid_twilio_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "dotenv": "^16.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "express": "^4.17.3",
+    "prettier": "^2.6.2",
+    "twilio": "^3.76.0"
+  }
+}
