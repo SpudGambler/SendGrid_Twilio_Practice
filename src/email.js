@@ -27,7 +27,7 @@ function getMessage(emailParams) {
   return {
     to: emailParams.toEmail,
     from: 'jaimea.parral@autonoma.edu.co',
-    subject: 'Confirmación orden de compra black friday',
+    subject: 'Envio de Correo Practica SendGrid',
     text: `Hola ${emailParams.customerName}, te enviamos las imagenes de los productos comprados y la factura con el número ${emailParams.orderNro}. Gracias por tu compra`,
     html: sendEmailConfirmationHTML(
       emailParams.customerName,
